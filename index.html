@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam Prakash - Portfolio</title>
+    <style>
+        /* Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        :root {
+            --bg: #0f0f12;
+            --text: #e6eef8;
+            --muted: #aab3c2;
+            --accent1: #ff6b6b;
+            --accent2: #7c5cff;
+            --accent3: #2bd4c7;
+            --accent-grad: linear-gradient(135deg,var(--accent1),var(--accent2));
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: linear-gradient(180deg,#020617 0%, #071028 60%);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: var(--accent-grad);
+            color: white;
+            animation: fadeDown 1s ease-in-out;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 5px 0;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+            backdrop-filter: blur(8px);
+            animation: fadeUp 1s ease-in-out;
+        }
+
+        h2 {
+            background: var(--accent-grad);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .tag {
+            display: inline-block;
+            background: var(--accent3);
+            color: #06111a;
+            padding: 5px 12px;
+            border-radius: 12px;
+            margin: 4px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            color: var(--muted);
+            margin-top: 40px;
+        }
+
+        /* Animations */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Smooth hover */
+        .tag:hover {
+            transform: scale(1.05);
+            transition: 0.2s ease;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Satyam Prakash</h1>
+    <p>📧 s.satyamprakash23@gmail.com | 📞 +91-7360098968</p>
+    <p>📍 Faridabad, Haryana, India – 121006</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>Self-motivated and detail-oriented Computer Science diploma student with a solid foundation in frontend and backend development. Seeking an internship to contribute to real-world projects, learn from industry professionals, and strengthen both my technical and collaborative skills.</p>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <ul>
+        <li><b>Diploma in Computer Science (Ongoing)</b> — Arunachal University, Badarpur, Delhi (Expected Jan 2026)</li>
+        <li><b>Intermediate (Class 12th)</b> — R.J.J.C.B.D +2 School, Sadhpur (Bihar Board, 2024)</li>
+        <li><b>Matriculation (Class 10th)</b> — Govt. Senior Secondary School, NIT Faridabad (HBSE, 2022)</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <ul>
+        <li><b>Student Result Dashboard</b> — HTML, CSS, MySQL</li>
+        <li><b>To-Do Web App (In Progress)</b> — Flask, Bootstrap, Login & Database</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div>
+        <span class="tag">HTML5</span>
+        <span class="tag">CSS3</span>
+        <span class="tag">Bootstrap</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Python</span>
+        <span class="tag">C++</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">DBMS</span>
+        <span class="tag">VS Code</span>
+        <span class="tag">Git & GitHub</span>
+        <span class="tag">Canva</span>
+        <span class="tag">OOPs</span>
+        <span class="tag">Problem Solving</span>
+    </div>
+</section>
+
+<section>
+    <h2>Strengths</h2>
+    <ul>
+        <li>Fast learner, adaptable to new technologies</li>
+        <li>Strong logical and analytical thinking</li>
+        <li>Effective team player and independent worker</li>
+        <li>Highly disciplined with a positive attitude</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Hobbies & Interests</h2>
+    <ul>
+        <li>Exploring tech trends & coding tutorials</li>
+        <li>Listening to music while working</li>
+        <li>Gaming (strategy & casual)</li>
+        <li>Discovering new productivity tools</li>
+    </ul>
+</section>
+
+<footer>
+    © 2025 Satyam Prakash — All Rights Reserved
+</footer>
+
+</body>
+</html>
